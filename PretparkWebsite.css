@@ -1,15 +1,26 @@
-
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: lim;
-    text-align: center;
-  }
-  
-  p1 {
-    font-family: verdana;
-    font-size: 20px;
-    font-style = "color: blue"
-  }
+  background-color: black;
+}
+
+*{margin: 0; padding: 0;}
+
+.nav{
+  display: flex;
+  width: 100%;
+}
+.nav img{
+  width: 75px;
+  height: 75px;
+}
+
+.nav div{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.NavButton{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
