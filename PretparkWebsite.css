@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  background-color: white; 
+  /* moet later zwart */
 }
 
 *{margin: 0; padding: 0;}
