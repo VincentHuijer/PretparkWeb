@@ -6,9 +6,19 @@ body {
 *{margin: 0; padding: 0;}
 
 .nav{
+  border: red;
+  width: 500px;
+  height: 200px;
   display: flex;
   width: 100%;
+  margin: 10px 20px auto; 
+
 }
+/*
+.nav{
+  display: flex;
+  width: 100%;
+}*/
 .nav img{
   width: 75px;
   height: 75px;
@@ -25,3 +35,37 @@ body {
   color: white;
 }
 
+#Menubalk 
+{ 
+	border: thin solid black; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	width: 1200px; 
+	height:150px; 
+	text-align: justify; 
+	background-color: #AC1923; 
+	word-wrap: break-word; /* words won't go from the boundry */ 
+	margin: 10px 1px auto; 
+
+	padding: 10px 20px 30px; 
+	float: left; 
+} 
+
+#Informatieblokken{
+  border: red;
+  font-family: 'Arial, Helvetica, sans-serif';
+	width: 500px; 
+	height:550px; 
+	text-align: justify; 
+	background-color: #AC1923; 
+	word-wrap: break-word; /* words won't go from the boundry */ 
+	margin: 10px 10px auto; 
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /*outlined tekst*/
+
+	padding: 10px 20px 30px; 
+	float: left; 
+}
+
+#Pompoenplaatje{
+
+}

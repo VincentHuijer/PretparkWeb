@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    display: flex;
+    height: 100vh;
+  }
+  
+  .tour-dates{
+    padding: 75px 25px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(43, 0, 0);
+  }
+  
+  .title{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .note{
+    font-size: 1.1rem;
+    color: rgb(185, 185, 185);
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  
+  .months p{
+    background-color: white;
+    font-size: 1.1rem;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+  }
+  
+  .n-available{
+    background-color: rgb(230, 76, 76);
+    padding: 2.5px;
+    color: white;
+    margin-left: 5rem;
+  }
+  .available{
+    background-color: rgb(43, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 5rem;
+  }
+  
+  .tournee{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+  }
+  
+  .ticket{
+    flex: 1;
+    background-color: white;
+    margin-left: 1rem;
+  }
+  .ticket:first-child{
+    margin-left: 0;
+  }
+  
+  .img-ticket{
+    width: 100%;
+    height: 200px;
+  }
+  .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .title-ticket{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: .5rem;
+  }
+  .date-ticket{
+    font-size: .9rem;
+    color: rgb(85, 85, 85);
+    margin-left: 1rem;
+  }
+  .desc-ticket{
+    margin: .5rem;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+  }
+  .buy-ticket{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    margin: .5rem 1rem;
+  }
+  .buy-ticket:hover{
+    cursor: pointer;
+    color: rgb(204, 203, 203);
+  }
+  
+  @media (max-width: 640px){
+    .tournee{
+      flex-direction: column;
+    }
+    .ticket{
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
