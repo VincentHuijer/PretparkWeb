@@ -2,13 +2,13 @@
 <html>
 
 <head>
-  
+
   <link rel="stylesheet" type="text/css" href="/PretparkWebsite.css" />
   <title>Koop nu uw tickets!</title>
 </head>
 
 <body>
-  
+
   <div id="Menubalk">
     <a href="PretparkOverOns.html" class="nav">Over Ons</a>
   </div>
@@ -16,31 +16,75 @@
     <a href="PretparkTickets.html" class="nav">Bestel nu tickets!</a>
   </div>
 
-  <div class="nav">
+  <div class="nav"> <!-- Baby optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <p>Baby ticket (0-3) </p>
+    <button id="decreaseBtnBaby">-1 ticket</button>
+    <p>Baby ticket (0-3) 5,00€ </p>
     <img src="Afbeeldingen\Plusbutton.png" />
+    <button id="increaseBtnBaby">+1 ticket</button>
+    <p> aantal tickets: </p>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <label id="countLabelBaby">0</label><br>
+    <button id="resetBtnBaby"> reset aantal tickets </button>
+    <p> Prijs is:  </p>
+    <label id="TotaalbedragBaby">0</label><br>
+    <script src="Ticketberekenaar.js"></script>
   </div>
-  <div class="nav">
+
+
+  <div class="nav"> <!-- Kind optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <p>Kind ticket (4-17) </p>
+    <button id="decreaseBtnKind">-1 ticket</button>
+    <p>Kind ticket (4-17) 30,00€ </p>
     <img src="Afbeeldingen\Plusbutton.png" />
+    <button id="increaseBtnKind">+1 ticket</button>
+    <p> aantal tickets: </p>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <label id="countLabelKind">0</label><br>
+    <button id="resetBtnKind"> reset aantal tickets </button>
+    <p> Prijs is:  </p>
+    <label id="TotaalbedragKind">0</label><br>
+    <script src="ticketberekenaarKind.js"></script>
   </div>
-  <div class="nav">
+
+
+  <div class="nav"> <!-- Volwassen optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <p>Volwassen ticket(18-64) </p>
+    <button id="decreaseBtn">-1 ticket</button>
+    <p>Volwassen ticket (0-3) </p>
     <img src="Afbeeldingen\Plusbutton.png" />
+    <button id="increaseBtn">+1 ticket</button>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <p> aantal tickets: </p>
+    <label id="countLabel">0</label><br>
+    <button id="resetBtn"> reset aantal tickets </button>
+    <script src="Ticketberekenaar.js"></script>
   </div>
-  <div class="nav">
+
+
+  <div class="nav"> <!-- 65+ optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <p>Gepensioneerd ticket(65+) </p>
+    <button id="decreaseBtn">-1 ticket</button>
+    <p>Gepensioneerd ticket (65+) </p>
     <img src="Afbeeldingen\Plusbutton.png" />
+    <button id="increaseBtn">+1 ticket</button>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <p> aantal tickets: </p>
+    <label id="countLabel">0</label><br>
+    <button id="resetBtn"> reset aantal tickets </button>
+    <script src="Ticketberekenaar.js"></script>
+  </div>
+
+
+
+  <div>
+    <p>Totaalbedrag: </p>
   </div>
 
   <div class="nav">
-    <a href="PretparkFrontPage.html"><img src="Afbeeldingen\EftelingLogo.png" alt=Terug naar het hoofdmenu/>
+    <a href="PretparkFrontPage.html"><img src="Afbeeldingen\EftelingLogo.png" alt=Terug naar het hoofdmenu />
       <div>
 
 
-    </div>
+      </div>
   </div>
