@@ -8,6 +8,14 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    (function(){
+       setTimeout(function(){
+         window.location="http://127.0.0.1:5500/PretparkFrontPage.html";
+       },600000); /* 1000 = 1 seconde, 600000 = 10 minuten*/
+    })();
+    </script>
+
 
   <div id="Menubalk">
     <a href="PretparkOverOns.html" class="nav">Over Ons</a>
@@ -26,9 +34,9 @@
     <img src="Afbeeldingen/PersonCount.png" />
     <label id="countLabelBaby">0</label><br>
     <button id="resetBtnBaby"> reset aantal tickets </button>
-    <p> Prijs is:  </p>
+    <p> Prijs is: € </p>
     <label id="TotaalbedragBaby">0</label><br>
-    <script src="Ticketberekenaar.js"></script>
+
   </div>
 
 
@@ -42,43 +50,45 @@
     <img src="Afbeeldingen/PersonCount.png" />
     <label id="countLabelKind">0</label><br>
     <button id="resetBtnKind"> reset aantal tickets </button>
-    <p> Prijs is:  </p>
+    <p> Prijs is: €</p>
     <label id="TotaalbedragKind">0</label><br>
-    <script src="ticketberekenaarKind.js"></script>
   </div>
 
 
   <div class="nav"> <!-- Volwassen optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtn">-1 ticket</button>
-    <p>Volwassen ticket (0-3) </p>
+    <button id="decreaseBtnVolwassen">-1 ticket</button>
+    <p>Volwassen ticket 18-64) 40,00€ </p>
     <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtn">+1 ticket</button>
-    <img src="Afbeeldingen/PersonCount.png" />
+    <button id="increaseBtnVolwassen">+1 ticket</button>
     <p> aantal tickets: </p>
-    <label id="countLabel">0</label><br>
-    <button id="resetBtn"> reset aantal tickets </button>
-    <script src="Ticketberekenaar.js"></script>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <label id="countLabelVolwassen">0</label><br>
+    <button id="resetBtnVolwassen"> reset aantal tickets </button>
+    <p> Prijs is: € </p>
+    <label id="TotaalbedragVolwassen">0</label><br>
   </div>
 
 
-  <div class="nav"> <!-- 65+ optie-->
+  <div class="nav"> <!-- Pensioen optie-->
     <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtn">-1 ticket</button>
-    <p>Gepensioneerd ticket (65+) </p>
+    <button id="decreaseBtnPensioen">-1 ticket</button>
+    <p>Pensioeneerd ticket 18-64) 25,00€ </p>
     <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtn">+1 ticket</button>
-    <img src="Afbeeldingen/PersonCount.png" />
+    <button id="increaseBtnPensioen">+1 ticket</button>
     <p> aantal tickets: </p>
-    <label id="countLabel">0</label><br>
-    <button id="resetBtn"> reset aantal tickets </button>
-    <script src="Ticketberekenaar.js"></script>
+    <img src="Afbeeldingen/PersonCount.png" />
+    <label id="countLabelPensioen">0</label><br>
+    <button id="resetBtnPensioen"> reset aantal tickets </button>
+    <p> Prijs is: €</p>
+    <label id="TotaalbedragPensioen">0</label><br>
   </div>
 
 
 
   <div>
     <p>Totaalbedrag: </p>
+    <label id="Totaalbedrag">0</label>
   </div>
 
   <div class="nav">
@@ -88,3 +98,14 @@
 
       </div>
   </div>
+  <script src="TicketberekenaarBaby.js"></script>
+  <script src="TicketberekenaarKind.js"></script>
+  <script src="TicketberekenaarVolwassenen.js"></script>
+  <script src="TicketberekenaarPensioen.js"></script>
+  <script src="TicketTotaalbedrag.js"></script>
+
+  </body>
+
+  
+</body>
+</html>
