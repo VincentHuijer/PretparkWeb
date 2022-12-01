@@ -1,6 +1,6 @@
-var totaalbedragAlles = 0;
+// var totaalbedragAlles = 0;
 
-totaalbedragAlles = document.getElementById("TotaalbedragVolwassen").innerHTML;
-document.getElementById("Totaalbedrag").innerHTML = totaalbedragAlles;
-totaalbedragAlles;
+// totaalbedragAlles = document.getElementById("TotaalbedragVolwassen").innerHTML;
+// document.getElementById("Totaalbedrag").innerHTML = totaalbedragAlles;
+// totaalbedragAlles;
     

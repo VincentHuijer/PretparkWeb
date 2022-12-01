@@ -7,7 +7,6 @@ document.getElementById("decreaseBtnKind").onclick = function () {
   }
   (bedragKind = countKindTicket * 30), 00;
 
-
   document.getElementById("countLabelKind").innerHTML = countKindTicket;
   document.getElementById("TotaalbedragKind").innerHTML = bedragKind;
 };
