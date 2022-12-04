@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css"; 
+import { Routes, route } from "react-router-dom";
 
 
 const App = () => { //Als ik hier nu <Person /> toon krijg je alles van de persoon te zien.
@@ -29,4 +30,8 @@ const App = () => { //Als ik hier nu <Person /> toon krijg je alles van de perso
     );
 };
 
+
+
+
 export default App;
+

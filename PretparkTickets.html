@@ -74,7 +74,7 @@
   <div class="nav"> <!-- Pensioen optie-->
     <img src="Afbeeldingen\MinusButton.png" />
     <button id="decreaseBtnPensioen">-1 ticket</button>
-    <p>Pensioeneerd ticket 18-64) 25,00€ </p>
+    <p>Pensioeneerd ticket 65+ 25,00€ </p>
     <img src="Afbeeldingen\Plusbutton.png" />
     <button id="increaseBtnPensioen">+1 ticket</button>
     <p> aantal tickets: </p>
@@ -84,18 +84,18 @@
     <p> Prijs is: €</p>
     <label id="TotaalbedragPensioen">0</label><br>
   </div>
-
+<!-- 
   <div>
     <p>Totaalbedrag: </p>
     <label id="totaalbedrag">0</label>
-  </div>
+  </div> -->
 
   <a href="PretparkFrontPage.html"><img src="Afbeeldingen\EftelingLogo.png" width="75px" height="75px" alt=Terug naar het hoofdmenu />
 
   <span id="timer"><span> 
 
-
-  
+    <script src="TicketBestellenNieuw.jsx"></script>
+  <script> ReactDom.render(<TicketSoort/>, document.querySelector("TicketSoort")) </script>
 
 
 
