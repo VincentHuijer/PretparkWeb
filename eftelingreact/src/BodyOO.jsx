@@ -10,7 +10,7 @@ export default function BodyOO() {
           activiteiten kan je je nooit vervelen. Kom langs bij onze achtbanen, ons doolhof, de griezelhuizen, de
           zweefmolen of geniet van eten in onze restaurants.</p>
       </header>
-      <img src="Afbeeldingen\OverOnsPaardAttractie.png" />
+      <img src={require('./OverOnsPaardAttractie.png')} alt="PaardAttractie"></img>
     </div>
     
     <div class ="OverOnsInfo">
@@ -26,7 +26,7 @@ export default function BodyOO() {
           directeur Finance & Support.</p>
         
       </header>
-      <img src="Afbeeldingen\OverOnsCeo.png" alt="CEO"></img>
+      <img src={require('./OverOnsCeo.png')} alt="CEO"></img>
       </div>
       </main>
 );

@@ -4,8 +4,9 @@ export default function BodyFP() {
       <div id="EngeVideo">
         <video controls autoPlay>
           <source
-            src="Afbeeldingen\EftelingHalloweenVideo.mp4"
+            src={require("./EftelingHalloweenVideo.mp4")}
             type="video/mp4"
+            alt="halloweenvideo"
           ></source>
         </video>
       </div>
@@ -20,12 +21,13 @@ export default function BodyFP() {
 
         <div className="infoblok">
           <h2>Beleef enge avonturen in het spookhuis!</h2>
-          <img src="\Afbeeldingen\FrontPageSpookhuis.png" alt="Spookhuis"></img>
+          {/* <img src="Afbeeldingen\FrontPageSpookhuis.png" alt="Spookhuis"></img> */}
+          <img src={require("./FrontPageSpookhuis.png")} alt="spookhuis"></img>
         </div>
 
         <div className="infoblok">
           <h2>Speciaal Halloween snoep voor kinderen!</h2>
-          <img src="Afbeeldingen\FrontPageSnoep.png" alt="Snoep"></img>
+          <img src={require("./FrontPageSnoep.png")} alt="Snoep"></img>
         </div>
       </article>
     </div>

@@ -6,8 +6,7 @@ export default function HeaderFP() {
       <div id="Menubalk">
         <a href="/"> {/*front page */}
           <img
-            src="Afbeeldingen\EftelingLogo.png"
-            alt="Terug naar het hoofdmenu"
+            src={require('./EftelingLogo.png')} alt="Terug naar het hoofdmenu"
           ></img>
         </a>
         <div>
