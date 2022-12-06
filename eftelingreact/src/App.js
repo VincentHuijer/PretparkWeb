@@ -5,8 +5,8 @@ import logo from './logo.svg';
 import OverOns from "./OverOns";
 import TicketVerkoop from "./TicketVerkoop";
 import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import { createRoot } from 'react-dom/client';
 import React from "react";
+import {createRoot} from 'react-dom/client';
 import ReactDOM from 'react-dom';
 
 
