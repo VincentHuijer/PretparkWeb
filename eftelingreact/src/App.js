@@ -1,17 +1,25 @@
 import { useEffect, useState } from "react";
 import "./App.css"; 
+import FrontPage from "./FrontPage";
 import logo from './logo.svg';
+import { Routes, route } from "react-router-dom";
+import OverOns from "./OverOns";
+import TicketVerkoop from "./TicketVerkoop";
 
 
 
 function App(){ //hier doe ik dus echt helemaal niks mee.
   return(
     <div className="App">
-      <header className="App-header">
+<routes><route path ="/frontpage" Component = {FrontPage}/></routes>
+<routes><route path ="/overons" Component = {OverOns}/></routes>
+<routes><route path= "/tickets" Component = {TicketVerkoop}/></routes>
+
+      {/* <header className="App-header">
         <img src={logo} className = "App-logo" alt="logo"></img>
-      </header>
+      </header> */}
     </div>
-  )
+  );
 }
 
 // const App = () => { //Als ik hier nu <Person /> toon krijg je alles van de persoon te zien.
