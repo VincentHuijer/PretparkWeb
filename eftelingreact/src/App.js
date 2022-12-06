@@ -2,25 +2,44 @@ import { useEffect, useState } from "react";
 import "./App.css"; 
 import FrontPage from "./FrontPage";
 import logo from './logo.svg';
-import { Routes, route } from "react-router-dom";
 import OverOns from "./OverOns";
 import TicketVerkoop from "./TicketVerkoop";
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { createRoot } from 'react-dom/client';
+import React from "react";
+import ReactDOM from 'react-dom';
 
 
-
-function App(){ //hier doe ik dus echt helemaal niks mee.
-  return(
-    <div className="App">
-<routes><route path ="/frontpage" Component = {FrontPage}/></routes>
-<routes><route path ="/overons" Component = {OverOns}/></routes>
-<routes><route path= "/tickets" Component = {TicketVerkoop}/></routes>
-
-      {/* <header className="App-header">
-        <img src={logo} className = "App-logo" alt="logo"></img>
-      </header> */}
-    </div>
+export default function Routing() {
+  return (
+    <Router>
+      <Routes>
+        
+          <Route exact path="/" index element={<FrontPage />} />
+          <Route path="/OverOns" element={<OverOns/>} />
+          <Route path="/Tickets" element={<TicketVerkoop />} />
+        
+      </Routes>
+    </Router>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Routing/>, document.getElementById('root'));
+
+
+// function App(){ //hier doe ik dus echt helemaal niks mee.
+//   return(
+//     <div className="App">
+// <routes><route path ="/frontpage" Component = {FrontPage}/></routes>
+// <routes><route path ="/overons" Component = {OverOns}/></routes>
+// <routes><route path= "/tickets" Component = {TicketVerkoop}/></routes>
+
+//       {/* <header className="App-header">
+//         <img src={logo} className = "App-logo" alt="logo"></img>
+//       </header> */}
+//     </div>
+//   );
+// }
 
 // const App = () => { //Als ik hier nu <Person /> toon krijg je alles van de persoon te zien.
 //  const[counter, setCounter] = useState(0); //wanneer je iets aanroept als een functie en het start met 'use' in React noemen we dat een 'hook'
