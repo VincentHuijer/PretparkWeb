@@ -5,6 +5,9 @@ body {
     width: 100%;
     height: 100%;
   /* moet later zwart */
+
+  background: black;
+
 }
 
 
@@ -90,13 +93,18 @@ body {
   padding-top: 125px;
 }
 
+.overOnsContent{
+  width: 50%;
+  margin: auto;
+}
+
 .OverOnsInfo header h1{
   font-size: 32px;
   background-color: white;
   text-align: center;
 }
 
-.OverOnsInfo header p{
+.OverOnsInfo p{
   font-size: 32px;
 }
 
@@ -105,12 +113,12 @@ body {
   display: flex;
   margin: auto;
   margin-top: 40px;
-  
+  padding-bottom: 100px;
 }
 
 .OverOnsInfo header{
   height: fit-content;
-  width: 30%;
+  width: 45%;
   background-color: red;
 }
 
@@ -130,6 +138,13 @@ body {
   font-size: 42px;
   color: white;
   
+}
+
+.OverOnsInfo img{
+  width: 450px;
+  height: 650px;
+
+  aspect-ratio: 9/16;
 }
 
 .infoblok img{
@@ -170,4 +185,92 @@ body {
 }
 
 #Pompoenplaatje {
+}
+
+.ticketContent{
+  background-color: green;
+  width: 90%;
+  margin: auto;
+  padding-top: 150px;
+}
+
+
+.buttonWrapper{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 50%;
+}
+
+.ticketsTitle{
+  background-color: red;
+  font-size: 48px;
+  padding-left: 25px;
+}
+
+
+.labels{
+  display: flex;
+  gap: 25px;
+}
+
+.labels *{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  height: 50px;
+}
+
+.leeftijdTitle{
+  width: 60%;
+}
+
+.ticketObject{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.ticketButtons{
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countLabel{
+  height: 72px;
+  width: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  background: white;
+}
+
+.totaalLabel{
+  height: 72px;
+  width: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  background: white;
+}
+
+.buttonWrapper{
+  margin-top: 25px;
 }

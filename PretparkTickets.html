@@ -29,69 +29,79 @@
     </div>
 </div>
 
-  <div class="nav"> <!-- Baby optie-->
-    <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtnBaby">-1 ticket</button>
-    <p>Baby ticket (0-3) 5,00€ </p>
-    <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtnBaby">+1 ticket</button>
-    <p> aantal tickets: </p>
-    <img src="Afbeeldingen/PersonCount.png" />
-    <label id="countLabelBaby">0</label><br>
-    <button id="resetBtnBaby"> reset aantal tickets </button>
-    <p> Prijs is: € </p>
-    <label id="TotaalbedragBaby">0</label><br>
+<div class="ticketContent">
+  <!-- LEFT -->
+  <div class="left">
+    <div class="ticketsTitle">
+        <p>Kaartjes bestellen</p>
+    </div>
+
+    <div class="labels">
+      <p class="leeftijdTitle">Leeftijdscategorie</p>
+      <p class="aantalTitle">Aantal</p>
+      <p class="prijsTitle">Prijs p.p</p>
+    </div>
+    <div class="buttonWrapper">
+    
+      <div class="ticketObject"> <!-- Baby optie-->
+
+        <div class="ticketButtons">
+          <button id="decreaseBtnBaby"><img src="Afbeeldingen\MinusButton.png" /></button>
+          <p>Baby ticket (0-3) 5,00€ </p>
+          <button id="increaseBtnBaby"><img src="Afbeeldingen\Plusbutton.png" /></button>
+        </div>
+        
+        <label class="countLabel" id="countLabelBaby">0</label><br>
+        <label class="totaalLabel" id="TotaalbedragBaby">0</label><br>
+      </div>
+    
+    
+      <div class="ticketObject"> <!-- Kind optie-->
+        <div class="ticketButtons">
+          <button id="decreaseBtnKind"><img src="Afbeeldingen\MinusButton.png" /></button>
+          <p>Kind ticket (4/17) 30,00€ </p>
+          <button id="increaseBtnKind"><img src="Afbeeldingen\Plusbutton.png" /></button>
+        </div>
+        
+        <label class="countLabel" id="countLabelKind">0</label><br>
+        <label class="totaalLabel" id="TotaalbedragKind">0</label><br>
+      </div>
+    
+    
+      <div class="ticketObject"> <!-- Volwassen optie-->
+        <div class="ticketButtons">
+          <button id="decreaseBtnVolwassen"><img src="Afbeeldingen\MinusButton.png" /></button>
+          <p>Volwassen ticket 18-64) 40,00€ </p>
+          <button id="increaseBtnVolwassen"><img src="Afbeeldingen\Plusbutton.png" /></button>
+        </div>
+        
+        <label class="countLabel" id="countLabelVolwassen">0</label><br>
+        <label class="totaalLabel" id="TotaalbedragVolwassen">0</label><br>
+      </div>
+    
+    
+      <div class="ticketObject"> <!-- Pensioen optie-->
+        <div class="ticketButtons">
+          <button id="decreaseBtnPensioen"><img src="Afbeeldingen\MinusButton.png" /></button>
+          <p>Pensioeneerd ticket 65+ 25,00€ </p>
+          <button id="increaseBtnPensioen"><img src="Afbeeldingen\Plusbutton.png" /></button>
+        </div>
+        
+        <label class="countLabel" id="countLabelPensioen">0</label><br>
+        <label class="totaalLabel" id="TotaalbedragPensioen">0</label><br>
+      </div>
+    </div>
+  </div>
+  
+  <!-- RIGHT -->
+  <div class="right">
 
   </div>
-
-
-  <div class="nav"> <!-- Kind optie-->
-    <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtnKind">-1 ticket</button>
-    <p>Kind ticket (4-17) 30,00€ </p>
-    <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtnKind">+1 ticket</button>
-    <p> aantal tickets: </p>
-    <img src="Afbeeldingen/PersonCount.png" />
-    <label id="countLabelKind">0</label><br>
-    <button id="resetBtnKind"> reset aantal tickets </button>
-    <p> Prijs is: €</p>
-    <label id="TotaalbedragKind">0</label><br>
-  </div>
-
-
-  <div class="nav"> <!-- Volwassen optie-->
-    <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtnVolwassen">-1 ticket</button>
-    <p>Volwassen ticket 18-64) 40,00€ </p>
-    <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtnVolwassen">+1 ticket</button>
-    <p> aantal tickets: </p>
-    <img src="Afbeeldingen/PersonCount.png" />
-    <label id="countLabelVolwassen">0</label><br>
-    <button id="resetBtnVolwassen"> reset aantal tickets </button>
-    <p> Prijs is: € </p>
-    <label id="TotaalbedragVolwassen">0</label><br>
-  </div>
-
-
-  <div class="nav"> <!-- Pensioen optie-->
-    <img src="Afbeeldingen\MinusButton.png" />
-    <button id="decreaseBtnPensioen">-1 ticket</button>
-    <p>Pensioeneerd ticket 65+ 25,00€ </p>
-    <img src="Afbeeldingen\Plusbutton.png" />
-    <button id="increaseBtnPensioen">+1 ticket</button>
-    <p> aantal tickets: </p>
-    <img src="Afbeeldingen/PersonCount.png" />
-    <label id="countLabelPensioen">0</label><br>
-    <button id="resetBtnPensioen"> reset aantal tickets </button>
-    <p> Prijs is: €</p>
-    <label id="TotaalbedragPensioen">0</label><br>
-  </div>
+</div>
 <!-- 
   <div>
     <p>Totaalbedrag: </p>
-    <label id="totaalbedrag">0</label>
+    <label class="totaalLabel" id="Totaalbedrag">0</label>
   </div> -->
 
   <a href="PretparkFrontPage.html"><img src="Afbeeldingen\EftelingLogo.png" width="75px" height="75px" alt=Terug naar het hoofdmenu />
