@@ -78,9 +78,6 @@ export default function BodyTV() {
       <p> Prijs is: € </p>
       <label id="TotaalbedragBaby">{baby * babyprijs}</label>
 
-
-
-
       <div className="nav">
         <img src={require("./MinusButton.png")} alt="-"></img>
         <button onClick={() => minTicket("kind")} id="decreaseBtnKind">
@@ -102,12 +99,6 @@ export default function BodyTV() {
         <p> Prijs is: €</p>
         <label id="TotaalbedragKind">{kind * babyprijs}</label>
       </div>
-
-
-
-
-
-
 
       <div className="nav">
         <img src={require("./MinusButton.png")} alt="-"></img>
@@ -136,10 +127,6 @@ export default function BodyTV() {
         <label id="TotaalbedragVolwassen">{volwassen * volwassenprijs}</label>
       </div>
 
-
-
-
-
       <div className="nav">
         <img src={require("./MinusButton.png")} alt="-"></img>
         <button onClick={() => minTicket("pensioen")} id="decreaseBtnPensioen">
@@ -164,12 +151,14 @@ export default function BodyTV() {
       <div>
         <p>Totaalbedrag: </p>
         <label id="totaalbedrag">
-          {baby * babyprijs + kindprijs * kind + volwassenprijs * volwassen + pensioenprijs * pensioen}
+          {baby * babyprijs +
+            kindprijs * kind +
+            volwassenprijs * volwassen +
+            pensioenprijs * pensioen}
         </label>
       </div>
 
-      
-      {/*<TODO> Deze meot hier eig niet </TODO>*/}
+      {/* <TODO> Deze meot hier eig niet </TODO>
       <a href="PretparkFrontPage.html"> 
         <img
           src={require('./EftelingLogo.png')}
@@ -177,7 +166,7 @@ export default function BodyTV() {
           height="75px"
           alt="Terug naar het hoofdmenu"
       ></img>
-      </a>
+      </a> */}
 
       <span id="timer"></span>
     </div>
