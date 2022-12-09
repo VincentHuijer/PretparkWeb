@@ -1,5 +1,5 @@
 window.onload = function() {
-    var minute = 9;
+    var minute = 59;
     var sec = 59;
     setInterval(function() {
       document.getElementById("timer").innerHTML = minute + ":" + sec + " tijd over om tickets te bestellen";

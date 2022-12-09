@@ -119,7 +119,7 @@ body {
 .OverOnsInfo header{
   height: fit-content;
   width: 45%;
-  background-color: red;
+  background-color: #ac1923;
 }
 
 .OverOnsInfo img{
@@ -188,12 +188,17 @@ body {
 }
 
 .ticketContent{
-  background-color: green;
-  width: 90%;
+  background-color: white;
+  width: 70%;
   margin: auto;
   padding-top: 150px;
 }
-
+#Zandloper{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding-top: 150px;
+}
 
 .buttonWrapper{
   display: flex;
@@ -210,7 +215,7 @@ body {
 }
 
 .ticketsTitle{
-  background-color: red;
+  background-color: #ac1923;
   font-size: 48px;
   padding-left: 25px;
 }
