@@ -1,14 +1,16 @@
 export default function BodyOO() {
   return (
-<main class="content">
+  <main class="content overOnsContent">
     <div class="OverOnsInfo">
       <header>
         <h1>
           Het pretpark
         </h1>
-        <p> Ons pretpark is een wonderbaarlijke ervaring voor alle leeftijden. Door ons groot assortiment aan opties in
+        <p> Ons pretpark is een wonderbaarlijke ervaring voor alle leeftijden. Door ons groot
+          assortiment aan opties in
           activiteiten kan je je nooit vervelen. Kom langs bij onze achtbanen, ons doolhof, de griezelhuizen, de
-          zweefmolen of geniet van eten in onze restaurants.</p>
+          zweefmolen of geniet van eten in onze restaurants. Er is altijd wel een plekje voor iedereen om een prachtige
+          dag te doorbrengen bij de Efteling!</p>
       </header>
       <img src={require('./OverOnsPaardAttractie.png')} alt="PaardAttractie"></img>
     </div>
@@ -19,11 +21,14 @@ export default function BodyOO() {
           Onze CEO
         </h1>
         <p>
-          Sinds september 1991 is Van Baarsen werkzaam bij de Efteling.
-          Eerst als assistent-controller, daarna als controller en concerncontroller, later hoofd van de afdeling
-          Financiële Zaken.
-          Hij is sinds 2008 financieel directeur en bij een herschikking van de taken per 1 januari 2022 werd hij
-          directeur Finance & Support.</p>
+         Van Baarsen is sinds 1 februari de nieuwe Directeur Park van de Efteling.
+          Hij nam het stokje over van Coen Bertens, die na 23 jaar afscheid neemt van de Efteling.
+          De directie van de Efteling bestaat nu uit vier personen:
+          Fons Jurgens (Algemeen Directeur),
+          Daan van Baarsen (Financieel Directeur),
+          Koen Sanders (Directeur Commercie,
+          Creatie en Ontwikkeling en Hotels & Resorts) en
+          Nicole Scheffers (Directeur Park).</p>
         
       </header>
       <img src={require('./OverOnsCeo.png')} alt="CEO"></img>

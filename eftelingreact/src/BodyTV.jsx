@@ -57,36 +57,64 @@ export default function BodyTV() {
   }
 
   return (
-    <div className="nav">
-      <img src={require("./MinusButton.png")} alt="-"></img>
-      <button onClick={() => minTicket("baby")} id="decreaseBtnBaby">
-        -1 ticket
-      </button>
-      <p>Baby ticket 0-3 5,00€ </p>
-      <img src={require("./PlusButton.png")} alt="+"></img>
-      <button onClick={() => plusTicket("baby")} id="increaseBtnBaby">
-        +1 ticket
-      </button>
-      <p> aantal tickets: </p>
-      <img src={require("./PersonCount.png")} alt="Aantal personen"></img>
-      <label id="countLabelBaby">{baby}</label>
+  
+    <div className="ticketContent">
+       <div class="ticketsTitle">
+        <p>Kaartjes bestellen</p>
+    </div>
+    <div class="labels">
+      <p class="leeftijdTitle">Leeftijdscategorie</p>
 
-      <button onClick={() => resetTicket("baby")} id="resetBtnBaby">
-        {" "}
-        reset aantal tickets{" "}
-      </button>
-      <p> Prijs is: € </p>
-      <label id="TotaalbedragBaby">{baby * babyprijs}</label>
-
-      <div className="nav">
-        <img src={require("./MinusButton.png")} alt="-"></img>
-        <button onClick={() => minTicket("kind")} id="decreaseBtnKind">
-          -1 ticket
+    </div>
+      <div class="ticketButtons">
+        <button>
+          <img
+            src={require("./MinusButton.png")}
+            alt="-"
+            onClick={() => minTicket("baby")}
+            id="decreaseBtnBaby"
+          />
         </button>
-        <p>Kind ticket 4-17 30,00€ </p>
-        <img src={require("./PlusButton.png")} alt="+"></img>
-        <button onClick={() => plusTicket("kind")} id="increaseBtnKind">
-          +1 ticket
+        <p> ticket leeftijd: t/m 3 5,00 €  </p>
+        <button>
+          <img
+            src={require("./PlusButton.png")}
+            alt="-"
+            onClick={() => plusTicket("baby")}
+            id="increaseBtnBaby"
+          />
+        </button>
+
+        <p> aantal tickets: </p>
+        <img src={require("./PersonCount.png")} alt="Aantal personen"></img>
+        <label id="countLabelBaby">{baby}</label>
+
+        <button onClick={() => resetTicket("baby")} id="resetBtnBaby">
+          {" "}
+          reset aantal tickets{" "}
+        </button>
+        <p> Prijs is: € </p>
+        <label id="TotaalbedragBaby">{baby * babyprijs}</label>
+      </div>
+
+      <div class="ticketButtons">
+        <button>
+          <img
+            src={require("./MinusButton.png")}
+            alt="-"
+            onClick={() => minTicket("kind")}
+            id="decreaseBtnKind"
+          />
+        </button>
+
+        <p> ticket leeftijd 4-17: 30,00 € </p>
+        <button>
+          <img
+            src={require("./PlusButton.png")}
+            alt="-"
+            onClick={() => plusTicket("kind")}
+            id="increaseBtnKind"
+          />
         </button>
 
         <p> aantal tickets: </p>
@@ -94,49 +122,64 @@ export default function BodyTV() {
         <label id="countLabelKind">{kind}</label>
         <button onClick={() => resetTicket("kind")} id="resetBtnKind">
           {" "}
-          reset aantal TicketSoort
+          reset aantal tickets
         </button>
         <p> Prijs is: €</p>
         <label id="TotaalbedragKind">{kind * babyprijs}</label>
       </div>
+      <div class="ticketButtons">
+          <button>
+            <img
+              src={require("./MinusButton.png")}
+              alt="-"
+              onClick={() => minTicket("volwassen")}
+              id="decreaseBtnVolwassen"
+            />
+          </button>
 
-      <div className="nav">
-        <img src={require("./MinusButton.png")} alt="-"></img>
-        <button
-          onClick={() => minTicket("volwassen")}
-          id="decreaseBtnVolwassen"
-        >
-          -1 ticket
-        </button>
-        <p>Volwassen ticket 18-64 40,00€ </p>
-        <img src={require("./PlusButton.png")} alt="+"></img>
-        <button
-          onClick={() => plusTicket("volwassen")}
-          id="increaseBtnVolwassen"
-        >
-          +1 ticket
-        </button>
-        <p> aantal tickets: </p>
-        <img src="Afbeeldingen/PersonCount.png" alt="Aantal personen"></img>
-        <label id="countLabelVolwassen">{volwassen}</label>
-        <button onClick={() => resetTicket("volwassen")} id="resetBtnVolwassen">
-          {" "}
-          reset aantal tickets{" "}
-        </button>
-        <p> Prijs is: € </p>
-        <label id="TotaalbedragVolwassen">{volwassen * volwassenprijs}</label>
+          <p> ticket leeftijd 18-64 40,00€</p>
+          <button>
+            <img
+              src={require("./PlusButton.png")}
+              alt="-"
+              onClick={() => plusTicket("volwassen")}
+              id="increaseBtnVolwassen"
+            />
+          </button>
+
+          <p> aantal tickets: </p>
+          <img src={require("./PersonCount.png")} alt="Aantal personen"></img>
+          <label id="countLabelVolwassen">{volwassen}</label>
+          <button
+            onClick={() => resetTicket("volwassen")}
+            id="resetBtnVolwassen"
+          >
+            {" "}
+            reset aantal tickets{" "}
+          </button>
+          <p> Prijs is: € </p>
+          <label id="TotaalbedragVolwassen">{volwassen * volwassenprijs}</label>
       </div>
+      <div class="ticketButtons">
+        <button>
+          <img
+            src={require("./MinusButton.png")}
+            alt="-"
+            onClick={() => minTicket("pensioen")}
+            id="decreaseBtnVolwassen"
+          />
+        </button>
 
-      <div className="nav">
-        <img src={require("./MinusButton.png")} alt="-"></img>
-        <button onClick={() => minTicket("pensioen")} id="decreaseBtnPensioen">
-          -1 ticket
+        <p>ticket leeftijd: {'>'} 65 25,00 € </p>
+        <button>
+          <img
+            src={require("./PlusButton.png")}
+            alt="-"
+            onClick={() => plusTicket("pensioen")}
+            id="increaseBtnPensioen"
+          />
         </button>
-        <p>Pensioeneerd ticket 65+ 25,00€ </p>
-        <img src={require("./PlusButton.png")} alt="+"></img>
-        <button onClick={() => plusTicket("pensioen")} id="increaseBtnPensioen">
-          +1 ticket
-        </button>
+
         <p> aantal tickets: </p>
         <img src={require("./PersonCount.png")} alt="Aantal personen"></img>
         <label id="countLabelPensioen">{pensioen}</label>
@@ -157,18 +200,13 @@ export default function BodyTV() {
             pensioenprijs * pensioen}
         </label>
       </div>
-
-      {/* <TODO> Deze meot hier eig niet </TODO>
-      <a href="PretparkFrontPage.html"> 
-        <img
-          src={require('./EftelingLogo.png')}
-          width="75px"
-          height="75px"
-          alt="Terug naar het hoofdmenu"
-      ></img>
-      </a> */}
+      <a id="Zandloper"href="PretparkFrontPage.html"><img src={require("./Zandloper.png")} width="75px" height="75px" alt="Terug naar het hoofdmenu"></img>
+</a>
+<div id="timer"></div> 
+<script src="AftelTimer.js"></script>
 
       <span id="timer"></span>
     </div>
+    
   );
 }
