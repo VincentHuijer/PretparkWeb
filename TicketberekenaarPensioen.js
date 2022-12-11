@@ -9,12 +9,16 @@ document.getElementById("decreaseBtnPensioen").onclick = function () {
 
   document.getElementById("countLabelPensioen").innerHTML = countPensioenTicket;
   document.getElementById("TotaalbedragPensioen").innerHTML = bedragPensioen;
+  update();
+
 };
 document.getElementById("increaseBtnPensioen").onclick = function () {
   countPensioenTicket += 1;
   (bedragPensioen = countPensioenTicket * 25), 00;
   document.getElementById("countLabelPensioen").innerHTML = countPensioenTicket;
   document.getElementById("TotaalbedragPensioen").innerHTML = bedragPensioen;
+  update();
+
 };
 document.getElementById("resetBtnPensioen").onclick = function () {
   countPensioenTicket = 0;
@@ -22,4 +26,6 @@ document.getElementById("resetBtnPensioen").onclick = function () {
 
   document.getElementById("countLabelPensioen").innerHTML = countPensioenTicket;
   document.getElementById("TotaalbedragPensioen").innerHTML = bedragPensioen;
+  update();
+
 };

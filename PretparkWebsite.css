@@ -197,7 +197,9 @@ body {
   display: flex;
   width: 70%;
   margin: auto;
-  padding-top: 150px;
+  color: white;
+  flex-direction: column;
+  
 }
 
 .buttonWrapper{
@@ -268,11 +270,12 @@ body {
 
 .totaalLabel{
   height: 72px;
-  width: 84px;
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 25px;
   background: white;
 }
 

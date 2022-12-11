@@ -9,12 +9,15 @@ document.getElementById("decreaseBtnBaby").onclick = function () {
 
   document.getElementById("countLabelBaby").innerHTML = countBabyTicket;
   document.getElementById("TotaalbedragBaby").innerHTML = bedragBaby;
+  update();
 };
 document.getElementById("increaseBtnBaby").onclick = function () {
   countBabyTicket += 1;
   (bedragBaby = countBabyTicket * 5), 00;
   document.getElementById("countLabelBaby").innerHTML = countBabyTicket;
   document.getElementById("TotaalbedragBaby").innerHTML = bedragBaby;
+  update();
+
 };
 document.getElementById("resetBtnBaby").onclick = function () {
   countBabyTicket = 0;
@@ -22,4 +25,7 @@ document.getElementById("resetBtnBaby").onclick = function () {
 
   document.getElementById("countLabelBaby").innerHTML = countBabyTicket;
   document.getElementById("TotaalbedragBaby").innerHTML = bedragBaby;
+  update();
+
 };
+

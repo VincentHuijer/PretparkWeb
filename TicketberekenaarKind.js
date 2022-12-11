@@ -9,12 +9,16 @@ document.getElementById("decreaseBtnKind").onclick = function () {
 
   document.getElementById("countLabelKind").innerHTML = countKindTicket;
   document.getElementById("TotaalbedragKind").innerHTML = bedragKind;
+  update();
+
 };
 document.getElementById("increaseBtnKind").onclick = function () {
   countKindTicket += 1;
   (bedragKind = countKindTicket * 30), 00;
   document.getElementById("countLabelKind").innerHTML = countKindTicket;
   document.getElementById("TotaalbedragKind").innerHTML = bedragKind;
+  update();
+
 };
 document.getElementById("resetBtnKind").onclick = function () {
   countKindTicket = 0;
@@ -22,5 +26,7 @@ document.getElementById("resetBtnKind").onclick = function () {
 
   document.getElementById("countLabelKind").innerHTML = countKindTicket;
   document.getElementById("TotaalbedragKind").innerHTML = bedragKind;
+  update();
+
 };
 

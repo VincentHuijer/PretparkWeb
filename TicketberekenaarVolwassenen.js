@@ -9,6 +9,8 @@ document.getElementById("decreaseBtnVolwassen").onclick = function () {
 
   document.getElementById("countLabelVolwassen").innerHTML = countVolwassenTicket;
   document.getElementById("TotaalbedragVolwassen").innerHTML = bedragVolwassen;
+  update();
+
 };
 document.getElementById("increaseBtnVolwassen").onclick = function () {
   countVolwassenTicket += 1;
@@ -16,6 +18,8 @@ document.getElementById("increaseBtnVolwassen").onclick = function () {
   document.getElementById("countLabelVolwassen").innerHTML =
     countVolwassenTicket;
   document.getElementById("TotaalbedragVolwassen").innerHTML = bedragVolwassen;
+  update();
+
 };
 document.getElementById("resetBtnVolwassen").onclick = function () {
   countVolwassenTicket = 0;
@@ -24,4 +28,6 @@ document.getElementById("resetBtnVolwassen").onclick = function () {
   document.getElementById("countLabelVolwassen").innerHTML =
     countVolwassenTicket;
   document.getElementById("TotaalbedragVolwassen").innerHTML = bedragVolwassen;
+  update();
+
 };
