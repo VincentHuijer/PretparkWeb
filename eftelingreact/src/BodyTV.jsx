@@ -200,8 +200,8 @@ export default function BodyTV() {
             pensioenprijs * pensioen}
         </label>
       </div>
-      <a id="Zandloper"href="PretparkFrontPage.html"><img src={require("./Zandloper.png")} width="75px" height="75px" alt="Terug naar het hoofdmenu"></img>
-</a>
+      <div id="Zandloper"><img src={require("./Zandloper.png")} width="75px" height="75px" alt="Terug naar het hoofdmenu"></img>
+</div>
 <div id="timer"></div> 
 <script src="AftelTimer.js"></script>
 

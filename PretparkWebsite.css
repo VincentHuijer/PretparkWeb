@@ -239,7 +239,7 @@ body {
 }
 
 .leeftijdTitle{
-  width: 60%;
+  width: 40%;
 }
 
 .ticketObject{
@@ -281,4 +281,8 @@ body {
 
 .buttonWrapper{
   margin-top: 25px;
+}
+
+.aantalTitle{
+  width: 22%;
 }
