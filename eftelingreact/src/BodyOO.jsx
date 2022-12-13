@@ -27,8 +27,7 @@ export default function BodyOO() {
           Fons Jurgens (Algemeen Directeur),
           Daan van Baarsen (Financieel Directeur),
           Koen Sanders (Directeur Commercie,
-          Creatie en Ontwikkeling en Hotels & Resorts) en
-          Nicole Scheffers (Directeur Park).</p>
+          Creatie en Ontwikkeling en Hotels & Resorts.) </p>
         
       </header>
       <img src={require('./OverOnsCeo.png')} alt="CEO"></img>

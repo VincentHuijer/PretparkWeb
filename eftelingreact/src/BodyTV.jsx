@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 export default function BodyTV() {
-  let [baby, setBaby] = useState(0);
-  let [kind, setKind] = useState(0);
-  let [volwassen, setVolwassen] = useState(0);
-  let [pensioen, setPensioen] = useState(0);
+  const [baby, setBaby] = useState(0);
+  const [kind, setKind] = useState(0);
+  const [volwassen, setVolwassen] = useState(0);
+  const [pensioen, setPensioen] = useState(0);
 
   const babyprijs = 5;
   const kindprijs = 30;
@@ -43,16 +43,16 @@ export default function BodyTV() {
 
   function resetTicket(type) {
     if (type === "baby") {
-      setBaby((baby = 0));
+      setBaby(0);
     }
     if (type === "kind") {
-      setKind((kind = 0));
+      setKind(0);
     }
     if (type === "volwassen") {
-      setVolwassen((volwassen = 0));
+      setVolwassen(0);
     }
     if (type === "pensioen") {
-      setPensioen((pensioen = 0));
+      setPensioen(0);
     }
   }
 
