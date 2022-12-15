@@ -1,18 +1,20 @@
-UX LAWS
+UX LAWS:
 
-Hick’s law 
+Hick’s law:
 Heb ik toegepast door keuzes voor tickets zo simpel mogelijk te houden. Bij andere pretparken heb je verschillende soorten tickets waar je extra premium content krijgt of kan je ook kiezen uit overnachtingen of weekendpasjes. Om het zo simpel mogelijk te houden we het bij tickets met leeftijden.
 
-Peak-end rule 
+Peak-end rule:
 Ik trek op de frontpage van mijn website direct de aandacht door een grote video te laten zien van de nieuwste spookachtige attractie (de piek), vervolgens op het einde van mijn website lezen gebruikers op het einde door alle evenementen die gegeven worden met Halloween. (End)
 
 
-UI laws
-Call to Action
+UI LAWS:
+
+Call to Action:
 Grote knop met vetgedrukte letters met in hoofdletter geschreven ‘BESTEL NU TICKETS VOOR HET HALLOWEEN EVENEMENT’ om klanten aan te roepen om tickets te bestellen.
-Visual hierarchy
+
+Visual hierarchy:
 Het eerste wat je zal opvallen op de website is de video speciaal voor halloween om de aandacht te trekken, vervolgens de evenementen en de bestel nu tickets nadat je eigenlijk al bent verleid door de video.
 
-Unity & Variety
+Unity & Variety:
 Ik had in Figma eerst mijn design ingedeeld in 12 kolommen om gelijkheden te creëren in de verhoudingen. Verder gebruik ik de bekende kleuren van de Efteling (rood/wit) samen met een andere warme kleur oranje, die toepasselijk hoort bij Halloween. 
 
