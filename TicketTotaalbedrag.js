@@ -6,5 +6,5 @@ function update(){
 
     let totaalBedrag = Number(babyprijs) + Number(kindprijs) + Number(volwassenprijs) + Number(pensioenprijs);
     
-    document.getElementById("Totaalbedrag").innerHTML = "Totaalbedrag: €" + totaalBedrag;
+    document.getElementById("Totaalbedrag").innerHTML = totaalBedrag;
 }
