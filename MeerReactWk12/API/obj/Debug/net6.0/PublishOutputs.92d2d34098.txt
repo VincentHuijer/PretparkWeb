@@ -1,0 +1,11 @@
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\API.exe
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\appsettings.Development.json
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\appsettings.json
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\API.dll
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\API.deps.json
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\API.runtimeconfig.json
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\API.pdb
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\Microsoft.OpenApi.dll
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\Swashbuckle.AspNetCore.Swagger.dll
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\School\WPFW\PortfolioOpdracht\React-Boeking-12\API\published-app\Swashbuckle.AspNetCore.SwaggerUI.dll

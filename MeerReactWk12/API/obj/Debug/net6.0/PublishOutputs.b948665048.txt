@@ -1,0 +1,11 @@
+C:\published-app\API.exe
+C:\published-app\appsettings.Development.json
+C:\published-app\appsettings.json
+C:\published-app\API.dll
+C:\published-app\API.deps.json
+C:\published-app\API.runtimeconfig.json
+C:\published-app\API.pdb
+C:\published-app\Microsoft.OpenApi.dll
+C:\published-app\Swashbuckle.AspNetCore.Swagger.dll
+C:\published-app\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\published-app\Swashbuckle.AspNetCore.SwaggerUI.dll
